@@ -16,7 +16,7 @@ var bmo = new Robot("B-Mo");
 var wall_e = new Robot("Wall-E");
 
 // #1
-console.log(add(null, 0, 1));
+console.log(add(0, 1));
 
 // #2  call
 console.log(add.call(voltron, 2, 3));
