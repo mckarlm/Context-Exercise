@@ -16,13 +16,14 @@ var bmo = new Robot("B-Mo");
 var wall_e = new Robot("Wall-E");
 
 // #1
-console.log(  );
+console.log(add(0, 1));
 
 // #2  call
-console.log(  );
+console.log(add.call(voltron, 2, 3));
 
 // #3  apply
-console.log(  );
+console.log(add.apply(optimus, [20, 30]));
 
 // #4  bind
-console.log(  );
+var calculate = add.bind(bender)
+console.log(calculate("drinking ", "beer"));
